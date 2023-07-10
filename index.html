@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima/tempo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="background">
+  </div>
+
+  <button onclick="getLocation()" class="button" style="vertical-align:middle"><span>Permitir localização </span></button>
+  
+  <div id="main">
+    <div><img src="figuras/localizacao-pb-png.png" alt="Localização" class="fit-content"></div>
+    <div><h3>LOCALIZAÇÃO</h3><p id="localizacao" class="left-mrgn">-----------</p></div>
+    <div><img src="figuras/umidade-pb-png.png" alt="Umidade simbolo" class="fit-content"></div>
+    <div><h3>UMIDADE</h3><p id="umidade" class="left-mrgn">-----------</p></div>
+    <div><img src="figuras/ensolarado-com-nuvens-pb-png.png" alt="Símbolo de sol com nuvem" class="fit-content"></div>
+    <div><h3>CÉU</h3><p id="ceu" class="left-mrgn">-----------</p></div>
+    <div><img src="figuras/temperatura-pb-png.png" alt="figura de um termômetro" class="fit-content"></div>
+    <div><h3>TEMPERATURA</h3><p id="temperatura" class="left-mrgn">-----------</p></div>
+  </div>
+
+  <footer>
+    <p>Feito por Flávio Augusto Aló Torres</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
